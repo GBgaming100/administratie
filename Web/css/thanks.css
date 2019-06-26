@@ -1,0 +1,57 @@
+body{
+    font-family: 'Raleway', sans-serif;
+    color:white;
+    overflow:hidden;
+
+}
+
+h2{
+    font-family: 'Staatliches', cursive;
+    font-size: 3.5rem;
+}
+
+#background{
+    background-image: url("thanks.jpg");
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+    color: white;
+    height: 100vh;
+}
+
+#background:after{
+    content: ' ';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: #5fbcbd;
+    opacity: .75;
+}
+
+
+.object{
+    margin: 0 auto;
+    left: 31vw;
+    top: 40vh;
+    position: absolute;
+    font-size: 3vw;
+}
+
+.cardLogo{
+    position: relative;
+    left: 14vw;
+    font-size: 9vw;
+}
+
+button{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+a,
+a:hover {
+    color: white;
+    text-decoration: none;
+}
+

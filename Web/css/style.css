@@ -1,0 +1,156 @@
+body{
+    font-family: 'Raleway', sans-serif;
+    color:white;
+    overflow:hidden;
+
+}
+
+h2{
+    font-family: 'Staatliches', cursive;
+    font-size: 3.5rem;
+}
+
+#background{
+    background-image: url(https://media.discordapp.net/attachments/298750446342766592/591166991247867904/150945881545807_83730480_1280.png?width=1202&height=677);
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+    color: white;
+    height: 101vh;
+}
+
+#background:after{
+    content: ' ';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: #5fbcbd;
+    opacity: .75;
+}
+.logo img{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 12vw;
+    padding-right: 2vw;
+    padding-bottom:  2vw;
+}
+
+.object{
+    margin: 0 auto;
+    left: 26vw;
+    top: 40vh;
+    position: absolute;
+    font-size: 3vw;
+}
+
+.cardLogo{
+    position: relative;
+    left: 15vw;
+    font-size: 9vw;
+}
+
+button{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+
+#tooLate {
+    background-image: url(https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/k-180-name-9918.jpg?auto=format&bg=F4F4F3&con=3&cs=srgb&dpr=1&fm=jpg&ixlib=php-1.1.0&mark=rawpixel-watermark.png&markalpha=90&markpad=13&markscale=10&markx=25&q=75&usm=15&vib=3&w=1200&s=93b54de46cd77fedff7e1327ea01d098);
+    height: 100vh;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+}
+
+#tooLate:after {
+    content: ' ';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: #92a6e9;
+    opacity: .6;
+}
+
+#sick {
+    background-image: url(https://g.foolcdn.com/editorial/images/461948/man-sick-in-bed_gettyimages-483229389.jpg);
+    height: 100vh;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+}
+
+#sick:after {
+    content: ' ';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: #5fbcbd;
+    opacity: .6;
+}
+
+#absent {
+    background-image: url(https://www.burytimes.co.uk/resources/images/5842260/);
+    height: 100vh;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+}
+
+#absent:after {
+    content: ' ';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: #5F82C0;
+    opacity: .6;
+}
+
+.info-container {
+    position: absolute;
+    top: 30%;
+    bottom: 30%;
+    left: 30px;
+    right: 30px;
+    z-index: 10;
+    color: white;
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.btn{
+    font-family: 'Staatliches', cursive;
+    font-size: 1.5rem;
+}
+
+.start{
+    font-family: 'Staatliches', cursive;
+    font-size: 1.5rem;
+}
+
+.modal-title,
+.modal-body{
+    color:black;
+}
+
+a,
+a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.close_btn{
+    position: relative;
+    left: 94vw;
+    bottom: 4vw;
+}

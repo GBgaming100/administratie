@@ -1,0 +1,79 @@
+body{
+    font-family: 'Raleway', sans-serif;
+    color:BLACK;
+
+    position: fixed;
+    overflow-y: scroll;
+    width: 100%;
+}
+
+h2{
+    font-family: 'Staatliches', cursive;
+    font-size: 3.5rem;
+}
+
+#background{
+    background-image: url(https://storage.demediahub.nl/145500000/145460000/145458000/155782200159365_145457249_1280.jpg);
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+    color: white;
+    z-index: -1;
+    height: 101vh;
+}
+
+#background:after{
+    content: ' ';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: #5F82C0;
+    opacity: .75;
+}
+#testimonial
+{
+    position: absolute;
+    left: 20vw;
+    top: 8vw;
+    z-index: 2;
+}
+
+.border{
+    background-color: #ffffff;
+}
+
+.bg-primary{
+    background-color: #5fbcbd !important;
+}
+
+.btn-danger{
+    background-color: #5F82C0 !important;
+    border-color: #5F82C0;
+}
+
+.btn-danger:hover{
+    background-color: #37436e !important;
+    border-color: #37436e;
+}
+
+.registerHeight{
+    max-height: 50vh;
+}
+
+.close_btn{
+    position: relative;
+    left: 94vw;
+    bottom: 4vw;
+}
+
+.btn{
+    font-family: 'Staatliches', cursive;
+    font-size: 1.5rem;
+}
+
+.start{
+    font-family: 'Staatliches', cursive;
+    font-size: 1.5rem;
+}
