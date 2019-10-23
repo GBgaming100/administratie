@@ -8,7 +8,7 @@
 
 function query($sql)
 {
-    $connect = mysqli_connect("localhost","root","", "administratie"); //localhost
+    $connect = mysqli_connect("localhost:3306","administratie","administratie", "administratie"); //localhost
 
     $resource = mysqli_query($connect, $sql);
     $retuning_array = array();

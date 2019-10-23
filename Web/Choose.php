@@ -235,10 +235,14 @@ session_start();
                         <input type="text" class="form-control" id="inputAddress" value="<?php echo date("H:i") ?>"
                                disabled>
                     </div>
+                    <div class="form-group d-none">
+                        <label  for="inputAddress">Datum:</label>
+                        <input  type="text" class="form-control" id="inputAddress" value="<?php echo date("d.m.y") ?>
+                    </div>
 
                     <div class="form-group">
                         <label for="inputAddress">Te laat reden:</label>
-                        <input type="text" class="form-control" id="inputAddress" value="Bus had vertraging">
+                        <input type="text" class="form-control" id="inputAddress">
                     </div>
                 </form>
             </div>

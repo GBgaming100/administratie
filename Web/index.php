@@ -30,7 +30,7 @@ session_start();
 </head>
 <body>
 <nav>
-    <a href="index.php" class="logo"> <img src="https://opleiding.com/wp-content/uploads/opleider/roc-ter-aa-1.png"></a>
+    <a href="index.php" class="logo"> <img src="http://www.roc-teraa.nl/wp-content/themes/roc/img/logo.jpg"></a>
 </nav>
 <div class="start">
     <div id="background"></div>
@@ -41,7 +41,7 @@ session_start();
     </div>
 </div>
 
-<div class="d-none">
+<div class="">
     <form method="post" action="#" id="printJS-form">
         <div id="basicUsage">
             test
